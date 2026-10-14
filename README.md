@@ -7,6 +7,18 @@ Aplicación web construida con **React 19** y **Vite 8** que carga una lista de 
 - **Cargar lista**: muestra los 15 nombres ordenados alfabéticamente en español (`localeCompare` con `'es'`), sin edades.
 - **Ver original**: muestra la lista en el orden original del archivo, con nombre y edad de cada usuario.
 
+## Hooks de React utilizados
+
+- **`useState`** (`src/App.jsx`): gestiona cuatro estados:
+  - `users`: almacena la lista de usuarios cargada desde el JSON.
+  - `loading`: controla el estado de carga inicial (`true` hasta resolver el `fetch`).
+  - `error`: guarda el mensaje de error si la petición falla.
+  - `vista`: determina qué vista está activa (`null`, `'ordenada'` u `'original'`).
+- **`useEffect`** (`src/App.jsx`): ejecuta el `fetch('/users.json')` una sola vez al montar el componente (arreglo de dependencias vacío `[]`), actualizando `users`, `loading` y `error` según el resultado.
+- **`StrictMode`** (`src/main.jsx`): envuelve la app en modo estricto para detectar problemas comunes durante el desarrollo (renderizados dobles, efectos no limpios).
+
+No se usan hooks personalizados ni `useMemo`/`useCallback`/`useRef` en este proyecto.
+
 ## Tecnologías
 
 - React 19.2
