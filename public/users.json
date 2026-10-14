@@ -1,0 +1,17 @@
+[
+  {"name": "Ana García", "age": 28},
+  {"name": "Carlos Rodríguez", "age": 34},
+  {"name": "Beatriz López", "age": 22},
+  {"name": "Daniel Martínez", "age": 41},
+  {"name": "Elena Sánchez", "age": 29},
+  {"name": "Fernando Pérez", "age": 35},
+  {"name": "Gabriela Gómez", "age": 27},
+  {"name": "Hugo Díaz", "age": 30},
+  {"name": "Isabel Torres", "age": 38},
+  {"name": "Javier Ruiz", "age": 25},
+  {"name": "Karla Flores", "age": 32},
+  {"name": "Luis Morales", "age": 45},
+  {"name": "María Ortega", "age": 26},
+  {"name": "Nicolás Castro", "age": 33},
+  {"name": "Óscar Vargas", "age": 37}
+]
