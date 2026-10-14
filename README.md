@@ -1,5 +1,3 @@
-# Sessone Tone
-
 Aplicación web construida con **React 19** y **Vite 8** que carga una lista de usuarios desde un archivo JSON y permite visualizarla de dos formas.
 
 ## Funcionalidades
